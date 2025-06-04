@@ -18,12 +18,12 @@
   "require-dev": {
     "laravel/nova-devtool": "^1.0.1"
   },
-  "repositories": [
-    {
+  "repositories": {
+    "private-packagist": {
       "type": "composer",
-      "url": "https://nova.laravel.com"
+      "url": "https://repo.packagist.com/kilogrupe/"
     }
-  ],
+  },
   "autoload": {
     "psr-4": {
       "Outl1ne\\NovaSortable\\": "src/"
